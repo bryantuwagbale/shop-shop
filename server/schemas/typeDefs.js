@@ -16,6 +16,10 @@ const typeDefs = gql`
     category: Category
   }
 
+  type Checkout {
+    session: ID
+  }
+
   type Order {
     _id: ID
     purchaseDate: String
@@ -28,10 +32,6 @@ const typeDefs = gql`
     lastName: String
     email: String
     orders: [Order]
-  }
-
-  type Checkout {
-    session: ID
   }
 
   type Auth {
