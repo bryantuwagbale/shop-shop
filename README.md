@@ -1,10 +1,5 @@
 # 🛍️-Shop-Shop-Redux
 
-  ![GitHub](https://img.shields.io/github/license/kpehl/shop-shop-redux?style=plastic)
-  
-  
-  
-
 ## About this Project
 This project refactors a fictional e-commerce application to use Redux for global state control, paired with a React front end, Node.js and Express.js for the back-end server, and MongoDB for the database. Stripe is used for payments.  
 
@@ -14,7 +9,7 @@ If you would like to modify the code, clone the project onto your computer, and 
 From the root directory, type `npm start` to start the Express and GraphQL/Apollo servers. The homepage of the application will open in your default browser.
 
 ## Usage
-The application is deployed at: 
+The application is deployed at: https://shop-shop-bryant.herokuapp.com/
 
 Use these login credentials:
 - `test@email.com`
